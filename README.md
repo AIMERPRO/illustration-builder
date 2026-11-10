@@ -29,29 +29,41 @@
 
 ![Примеры композиций](docs/preview.png)
 
-## Быстрый старт
+## Запуск
+
+Всё поднимается в Docker — и приложение, и локальная модель. Нужен только Docker с Compose.
 
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# «арт-директор» на локальной модели (опционально)
-docker compose up -d ollama
-docker compose exec ollama ollama pull llama3.2:3b
-
-OLLAMA_BASE_URL=http://localhost:11434 LLM_MODEL=llama3.2:3b \
-  uvicorn app:app --reload --port 8000
+docker compose up -d --build                          # app на :8000 + Ollama на :11434
+docker compose exec ollama ollama pull llama3.2:3b    # один раз: скачать модель (~2 ГБ)
 ```
 
 Откройте <http://localhost:8000>, введите метафору и нажмите **«Собрать»**.
 
-Без Ollama сервис полностью работоспособен: план собирается по правилам и словарю
-(поле `resolved.source` в ответе подскажет, что сработало).
+Без модели сервис тоже работает: план собирается детерминированно по правилам и словарю
+(в ответе `resolved.source` будет `rules` вместо `ollama`).
 
-### Docker
+Полезные команды:
 
 ```bash
-docker compose up -d --build app
+docker compose logs -f app           # логи приложения
+docker compose down                  # остановить
+docker compose up -d --build app     # пересобрать после правок Python-кода
+```
+
+Фронтенд (`frontend/`), библиотека (`assets/`) и данные (`data/`) смонтированы в контейнер,
+их правки подхватываются без пересборки.
+
+### Локальная разработка (опционально)
+
+Если нужен hot-reload или отладчик — приложение можно запустить и без контейнера, оставив
+модель в Docker:
+
+```bash
+docker compose up -d ollama
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+OLLAMA_BASE_URL=http://localhost:11434 uvicorn app:app --reload --port 8000
 ```
 
 ## API
