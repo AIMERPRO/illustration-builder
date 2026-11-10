@@ -1,0 +1,513 @@
+{
+ "keywords": {
+  "книга": [
+   "book"
+  ],
+  "обучение": [
+   "book",
+   "notepad",
+   "puzzle"
+  ],
+  "чтение": [
+   "book"
+  ],
+  "знания": [
+   "book"
+  ],
+  "планшет": [
+   "tablet"
+  ],
+  "телефон": [
+   "tablet"
+  ],
+  "связь": [
+   "tablet"
+  ],
+  "технологии": [
+   "tablet"
+  ],
+  "экран": [
+   "tablet"
+  ],
+  "паззл": [
+   "puzzle"
+  ],
+  "пазл": [
+   "puzzle"
+  ],
+  "решение": [
+   "puzzle"
+  ],
+  "задача": [
+   "puzzle"
+  ],
+  "логика": [
+   "puzzle"
+  ],
+  "монета": [
+   "coin"
+  ],
+  "деньги": [
+   "coin",
+   "wallet"
+  ],
+  "финансы": [
+   "coin",
+   "wallet"
+  ],
+  "оплата": [
+   "coin",
+   "wallet"
+  ],
+  "бонус": [
+   "coin",
+   "wallet"
+  ],
+  "наушники": [
+   "headphones"
+  ],
+  "музыка": [
+   "headphones"
+  ],
+  "звук": [
+   "headphones"
+  ],
+  "аудио": [
+   "headphones"
+  ],
+  "лампа": [
+   "lamp"
+  ],
+  "свет": [
+   "lamp"
+  ],
+  "идея": [
+   "lamp"
+  ],
+  "освещение": [
+   "lamp"
+  ],
+  "ваза": [
+   "vase"
+  ],
+  "цветы": [
+   "vase"
+  ],
+  "букет": [
+   "vase"
+  ],
+  "природа": [
+   "vase"
+  ],
+  "весна": [
+   "vase"
+  ],
+  "кошелёк": [
+   "wallet"
+  ],
+  "кошелек": [
+   "wallet"
+  ],
+  "блокнот": [
+   "notepad"
+  ],
+  "заметки": [
+   "notepad"
+  ],
+  "запись": [
+   "notepad",
+   "pencil"
+  ],
+  "план": [
+   "notepad"
+  ],
+  "список": [
+   "notepad"
+  ],
+  "карандаш": [
+   "pencil"
+  ],
+  "ручка": [
+   "pencil"
+  ],
+  "писать": [
+   "pencil",
+   "notepad"
+  ],
+  "рисовать": [
+   "pencil"
+  ],
+  "творчество": [
+   "pencil",
+   "vase"
+  ]
+ },
+ "metaphors": {
+  "бизнес": [
+   "wallet",
+   "coin",
+   "notepad"
+  ],
+  "финансы": [
+   "coin",
+   "wallet"
+  ],
+  "обучение": [
+   "book",
+   "notepad",
+   "pencil",
+   "puzzle"
+  ],
+  "идея": [
+   "lamp",
+   "puzzle"
+  ],
+  "коммуникация": [
+   "tablet"
+  ],
+  "творчество": [
+   "vase",
+   "pencil"
+  ],
+  "планирование": [
+   "notepad",
+   "pencil"
+  ],
+  "успех": [
+   "puzzle",
+   "lamp"
+  ],
+  "стартап": [
+   "lamp",
+   "puzzle",
+   "tablet"
+  ],
+  "природа": [
+   "vase"
+  ],
+  "технологии": [
+   "tablet",
+   "puzzle"
+  ]
+ },
+ "associations": {
+  "headset": [
+   "headphones"
+  ],
+  "setup": [
+   "tablet",
+   "headphones",
+   "lamp"
+  ],
+  "аудио": [
+   "headphones"
+  ],
+  "блокнот": [
+   "notepad"
+  ],
+  "геймер": [
+   "tablet",
+   "headphones",
+   "lamp"
+  ],
+  "деньг": [
+   "wallet",
+   "coin"
+  ],
+  "деск": [
+   "tablet",
+   "headphones",
+   "lamp"
+  ],
+  "дисплей": [
+   "tablet"
+  ],
+  "задач": [
+   "puzzle"
+  ],
+  "запис": [
+   "notepad",
+   "pencil"
+  ],
+  "звук": [
+   "headphones"
+  ],
+  "игр": [
+   "tablet",
+   "headphones",
+   "puzzle"
+  ],
+  "клавиатур": [
+   "tablet"
+  ],
+  "книг": [
+   "book"
+  ],
+  "комнат": [
+   "lamp",
+   "vase"
+  ],
+  "комп": [
+   "tablet"
+  ],
+  "компьютер": [
+   "tablet",
+   "headphones"
+  ],
+  "кошел": [
+   "wallet"
+  ],
+  "ламп": [
+   "lamp"
+  ],
+  "логик": [
+   "puzzle"
+  ],
+  "монет": [
+   "coin"
+  ],
+  "монитор": [
+   "tablet"
+  ],
+  "музык": [
+   "headphones"
+  ],
+  "мыш": [
+   "tablet"
+  ],
+  "наушник": [
+   "headphones"
+  ],
+  "обуч": [
+   "book",
+   "notepad",
+   "pencil"
+  ],
+  "освещ": [
+   "lamp"
+  ],
+  "офис": [
+   "notepad",
+   "tablet",
+   "lamp"
+  ],
+  "пазл": [
+   "puzzle"
+  ],
+  "план": [
+   "notepad",
+   "pencil"
+  ],
+  "природ": [
+   "vase"
+  ],
+  "рабоч": [
+   "notepad",
+   "tablet",
+   "lamp"
+  ],
+  "растен": [
+   "vase"
+  ],
+  "рисова": [
+   "pencil"
+  ],
+  "свет": [
+   "lamp"
+  ],
+  "светильник": [
+   "lamp"
+  ],
+  "стол": [
+   "tablet",
+   "headphones",
+   "lamp"
+  ],
+  "творчеств": [
+   "pencil",
+   "vase"
+  ],
+  "техник": [
+   "tablet"
+  ],
+  "технолог": [
+   "tablet"
+  ],
+  "учеб": [
+   "book",
+   "notepad",
+   "pencil"
+  ],
+  "уют": [
+   "lamp",
+   "vase"
+  ],
+  "финанс": [
+   "wallet",
+   "coin"
+  ],
+  "цвет": [
+   "vase"
+  ],
+  "цветы": [
+   "vase"
+  ],
+  "чтен": [
+   "book"
+  ],
+  "экран": [
+   "tablet"
+  ]
+ },
+ "themes": {
+  "уютный вечер": {
+   "main": [
+    "book"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "вечер": {
+   "main": [
+    "book"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "уют": {
+   "main": [
+    "book"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "обучение": {
+   "main": [
+    "book",
+    "notepad",
+    "puzzle",
+    "pencil",
+    "tablet"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "учёба": {
+   "main": [
+    "book",
+    "notepad",
+    "puzzle",
+    "pencil",
+    "tablet"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "знания": {
+   "main": [
+    "book"
+   ],
+   "background": [
+    "notepad"
+   ]
+  },
+  "бизнес": {
+   "main": [
+    "wallet",
+    "notepad"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "рост": {
+   "main": [
+    "wallet",
+    "puzzle"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "финансы": {
+   "main": [
+    "wallet",
+    "coin"
+   ],
+   "background": [
+    "notepad"
+   ]
+  },
+  "деньги": {
+   "main": [
+    "wallet",
+    "coin"
+   ],
+   "background": [
+    "notepad"
+   ]
+  },
+  "идея": {
+   "main": [
+    "lamp",
+    "puzzle"
+   ],
+   "background": [
+    "notepad"
+   ]
+  },
+  "музыка": {
+   "main": [
+    "headphones"
+   ],
+   "background": [
+    "vase"
+   ]
+  },
+  "отдых": {
+   "main": [
+    "headphones"
+   ],
+   "background": [
+    "lamp"
+   ]
+  },
+  "технологии": {
+   "main": [
+    "tablet",
+    "puzzle"
+   ],
+   "background": [
+    "headphones"
+   ]
+  },
+  "творчество": {
+   "main": [
+    "vase",
+    "pencil"
+   ],
+   "background": [
+    "notepad"
+   ]
+  },
+  "природа": {
+   "main": [
+    "vase"
+   ],
+   "background": [
+    "lamp"
+   ]
+  }
+ },
+ "default": [
+  "book",
+  "lamp",
+  "coin",
+  "headphones"
+ ]
+}

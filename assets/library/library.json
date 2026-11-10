@@ -1,0 +1,516 @@
+{
+  "version": 3,
+  "objects": [
+    {
+      "id": "book",
+      "name": "Книга",
+      "type": "main",
+      "tags": [
+        "книга",
+        "book",
+        "обучение",
+        "знания",
+        "чтение",
+        "учиться"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 1446.0,
+      "height": 977.0,
+      "variants": {
+        "s": "book/book_s.svg",
+        "l": "book/book_l.svg"
+      }
+    },
+    {
+      "id": "book_bg",
+      "name": "Книга (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 1446.0,
+      "height": 977.0,
+      "variants": {
+        "s": "book/book_bg_s.svg",
+        "l": "book/book_bg_l.svg"
+      }
+    },
+    {
+      "id": "tablet",
+      "name": "Планшет",
+      "type": "main",
+      "tags": [
+        "планшет",
+        "tablet",
+        "телефон",
+        "phone",
+        "связь",
+        "технологии",
+        "экран"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 797.0,
+      "height": 462.0,
+      "variants": {
+        "s": "tablet/tablet_s.svg",
+        "l": "tablet/tablet_l.svg"
+      }
+    },
+    {
+      "id": "tablet_bg",
+      "name": "Планшет (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 797.0,
+      "height": 462.0,
+      "variants": {
+        "s": "tablet/tablet_bg_s.svg",
+        "l": "tablet/tablet_bg_l.svg"
+      }
+    },
+    {
+      "id": "puzzle",
+      "name": "Паззл",
+      "type": "main",
+      "tags": [
+        "паззл",
+        "пазл",
+        "puzzle",
+        "решение",
+        "задача",
+        "логика"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 545.0,
+      "height": 314.0,
+      "variants": {
+        "s": "puzzle/puzzle_s.svg",
+        "l": "puzzle/puzzle_l.svg"
+      }
+    },
+    {
+      "id": "puzzle_bg",
+      "name": "Паззл (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 545.0,
+      "height": 314.0,
+      "variants": {
+        "s": "puzzle/puzzle_bg_s.svg",
+        "l": "puzzle/puzzle_bg_l.svg"
+      }
+    },
+    {
+      "id": "coin",
+      "name": "Монета",
+      "type": "main",
+      "tags": [
+        "монета",
+        "coin",
+        "деньги",
+        "финансы",
+        "оплата",
+        "бонус"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 287.0,
+      "height": 189.0,
+      "variants": {
+        "s": "coin/coin_s.svg",
+        "l": "coin/coin_l.svg"
+      }
+    },
+    {
+      "id": "coin_bg",
+      "name": "Монета (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 287.0,
+      "height": 189.0,
+      "variants": {
+        "s": "coin/coin_bg_s.svg",
+        "l": "coin/coin_bg_l.svg"
+      }
+    },
+    {
+      "id": "headphones",
+      "name": "Наушники",
+      "type": "main",
+      "tags": [
+        "наушники",
+        "headphones",
+        "музыка",
+        "звук",
+        "аудио"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 889.0,
+      "height": 692.0,
+      "variants": {
+        "s": "headphones/headphones_s.svg",
+        "l": "headphones/headphones_l.svg"
+      }
+    },
+    {
+      "id": "headphones_bg",
+      "name": "Наушники (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 889.0,
+      "height": 692.0,
+      "variants": {
+        "s": "headphones/headphones_bg_s.svg",
+        "l": "headphones/headphones_bg_l.svg"
+      }
+    },
+    {
+      "id": "lamp",
+      "name": "Лампа",
+      "type": "main",
+      "tags": [
+        "лампа",
+        "lamp",
+        "свет",
+        "идея",
+        "освещение"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 946.0,
+      "height": 1129.0,
+      "variants": {
+        "s": "lamp/lamp_s.svg",
+        "l": "lamp/lamp_l.svg"
+      }
+    },
+    {
+      "id": "lamp_bg",
+      "name": "Лампа (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 946.0,
+      "height": 1129.0,
+      "variants": {
+        "s": "lamp/lamp_bg_s.svg",
+        "l": "lamp/lamp_bg_l.svg"
+      }
+    },
+    {
+      "id": "vase",
+      "name": "Ваза с цветами",
+      "type": "main",
+      "tags": [
+        "ваза",
+        "цветы",
+        "букет",
+        "vase",
+        "flowers",
+        "природа",
+        "весна"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 591.0,
+      "height": 748.0,
+      "variants": {
+        "s": "vase/vase_s.svg",
+        "l": "vase/vase_l.svg"
+      }
+    },
+    {
+      "id": "vase_bg",
+      "name": "Ваза с цветами (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 591.0,
+      "height": 748.0,
+      "variants": {
+        "s": "vase/vase_bg_s.svg",
+        "l": "vase/vase_bg_l.svg"
+      }
+    },
+    {
+      "id": "wallet",
+      "name": "Кошелёк",
+      "type": "main",
+      "tags": [
+        "кошелёк",
+        "кошелек",
+        "wallet",
+        "деньги",
+        "оплата",
+        "финансы"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 631.0,
+      "height": 397.0,
+      "variants": {
+        "s": "wallet/wallet_s.svg",
+        "l": "wallet/wallet_l.svg"
+      }
+    },
+    {
+      "id": "wallet_bg",
+      "name": "Кошелёк (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 631.0,
+      "height": 397.0,
+      "variants": {
+        "s": "wallet/wallet_bg_s.svg",
+        "l": "wallet/wallet_bg_l.svg"
+      }
+    },
+    {
+      "id": "notepad",
+      "name": "Блокнот",
+      "type": "main",
+      "tags": [
+        "блокнот",
+        "notepad",
+        "заметки",
+        "запись",
+        "план",
+        "список"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 1241.0,
+      "height": 659.0,
+      "variants": {
+        "s": "notepad/notepad_s.svg",
+        "l": "notepad/notepad_l.svg"
+      }
+    },
+    {
+      "id": "notepad_bg",
+      "name": "Блокнот (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 1241.0,
+      "height": 659.0,
+      "variants": {
+        "s": "notepad/notepad_bg_s.svg",
+        "l": "notepad/notepad_bg_l.svg"
+      }
+    },
+    {
+      "id": "pencil",
+      "name": "Карандаш",
+      "type": "main",
+      "tags": [
+        "карандаш",
+        "ручка",
+        "pencil",
+        "pen",
+        "писать",
+        "рисовать",
+        "творчество"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 509.0,
+      "height": 286.0,
+      "variants": {
+        "s": "pencil/pencil_s.svg",
+        "l": "pencil/pencil_l.svg"
+      }
+    },
+    {
+      "id": "pencil_bg",
+      "name": "Карандаш (фон)",
+      "type": "background",
+      "tags": [
+        "фон",
+        "фоновый",
+        "background"
+      ],
+      "colorRoles": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "line"
+      ],
+      "width": 509.0,
+      "height": 286.0,
+      "variants": {
+        "s": "pencil/pencil_bg_s.svg",
+        "l": "pencil/pencil_bg_l.svg"
+      }
+    }
+  ]
+}

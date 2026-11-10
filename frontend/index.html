@@ -1,0 +1,130 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Конструктор иллюстраций</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <header class="brand">
+        <div class="brand-mark">SVG</div>
+        <div class="brand-text">
+          <h1>Конструктор иллюстраций</h1>
+          <p>Метафора → композиция «Экспозиция» из готовых векторных объектов</p>
+        </div>
+      </header>
+
+      <section class="panel">
+        <h2>1. Метафора</h2>
+        <label class="field">
+          <span>Опишите идею одной фразой</span>
+          <textarea id="compose-input" rows="2"
+            placeholder="Например: уютный вечер с музыкой и светом"></textarea>
+        </label>
+        <div class="field-row">
+          <label class="field">
+            <span>Холст</span>
+            <select id="canvas">
+              <option value="horizontal" selected>Горизонтальный · 600×315</option>
+              <option value="square">Квадратный · 540×540</option>
+              <option value="vertical">Вертикальный · 540×675</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Размер объектов</span>
+            <select id="size">
+              <option value="l">L (детально)</option>
+              <option value="s">S (просто)</option>
+            </select>
+          </label>
+        </div>
+        <div class="btn-row">
+          <button id="btn-compose" class="btn btn-primary">Собрать</button>
+          <button id="btn-clear" class="btn">Очистить</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>2. Библиотека объектов</h2>
+        <input id="lib-search" class="search" type="search" placeholder="Поиск по названию или тегу…" />
+        <div id="lib-list" class="lib-grid"></div>
+      </section>
+
+      <section class="panel">
+        <h2>3. Цветовая палитра</h2>
+        <div class="scheme-row" id="scheme-row"></div>
+        <div class="roles" id="roles"></div>
+        <div class="field-row">
+          <label class="btn btn-file">
+            Загрузить палитру
+            <input id="palette-upload" type="file" accept="image/*" hidden />
+          </label>
+          <div id="palette-preview" class="palette-preview"></div>
+        </div>
+        <p class="hint">Цвета из картинки автоматически раскладываются по ролям и перекрашивают композицию.</p>
+      </section>
+    </aside>
+
+    <main class="stage">
+      <div class="toolbar">
+        <div class="toolbar-group">
+          <span class="toolbar-label">Размер:</span>
+          <div class="segmented" id="size-toggle">
+            <button data-size="s">S</button>
+            <button data-size="l" class="active">L</button>
+          </div>
+        </div>
+        <div class="toolbar-group" id="selection-tools">
+          <button id="btn-dup" class="btn btn-sm" title="Ctrl+D">Дублировать</button>
+          <button id="btn-front" class="btn btn-sm">Выше</button>
+          <button id="btn-back" class="btn btn-sm">Ниже</button>
+          <button id="btn-del" class="btn btn-sm btn-danger" title="Del">Удалить</button>
+        </div>
+        <div class="toolbar-spacer"></div>
+        <button id="btn-export" class="btn btn-primary">Скачать SVG</button>
+      </div>
+
+      <div class="canvas-wrap">
+        <div class="canvas-frame" id="canvas-frame">
+          <svg id="stage-svg" xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 600 315" preserveAspectRatio="xMidYMid meet"></svg>
+          <div class="empty-state" id="empty-state">
+            <b>Здесь появится композиция</b>
+            <span>Опишите метафору слева и нажмите «Собрать»</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="statusbar" id="statusbar">Загрузка библиотеки…</div>
+
+      <div class="props" id="props" hidden>
+        <div class="props-head">
+          <strong id="props-name">Объект</strong>
+          <button id="props-close" class="btn btn-sm">×</button>
+        </div>
+        <div class="props-body">
+          <div class="field-row">
+            <div class="props-state" id="props-state">
+              <button data-state="main" class="active">Главный</button>
+              <button data-state="background">Фоновый</button>
+            </div>
+          </div>
+          <label class="field">
+            <span>Поворот: <b id="rot-val">0°</b></span>
+            <input id="rot-range" type="range" min="-180" max="180" step="1" value="0" />
+          </label>
+          <label class="field">
+            <span>Масштаб: <b id="scale-val">100%</b></span>
+            <input id="scale-range" type="range" min="30" max="300" step="1" value="100" />
+          </label>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
