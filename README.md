@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 # «арт-директор» на локальной модели (опционально)
 docker compose up -d ollama
-docker exec -it testforjob-ollama-1 ollama pull llama3.2:3b
+docker compose exec ollama ollama pull llama3.2:3b
 
 OLLAMA_BASE_URL=http://localhost:11434 LLM_MODEL=llama3.2:3b \
   uvicorn app:app --reload --port 8000
